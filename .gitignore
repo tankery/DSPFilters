@@ -1,3 +1,15 @@
+# Mac OS temporary files
+.DS_Store
+
+# The project files are generate by GYP.
+# iOS & Mac
+*.xcodeproj/
+
+# Android
+GypAndroid.mk
+*.target.mk
+
+# Project specific
 build
 .waf*
 .lock*

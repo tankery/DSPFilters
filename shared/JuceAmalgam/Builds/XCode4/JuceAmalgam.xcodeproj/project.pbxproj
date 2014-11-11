@@ -343,6 +343,7 @@
 					"JUCE_UNIT_TESTS=1",
 					"$(inherited)",
 				);
+				GCC_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -356,6 +357,7 @@
 					"JUCE_ObjCExtraSuffix=",
 					"$(inherited)",
 				);
+				GCC_VERSION = "";
 			};
 			name = Release;
 		};

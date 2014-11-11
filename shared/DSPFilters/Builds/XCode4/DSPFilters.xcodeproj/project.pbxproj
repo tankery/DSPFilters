@@ -429,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EF3B477140F5059002CE947 /* SharedDebug.xcconfig */;
 			buildSettings = {
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = ../../include;
 			};
 			name = Debug;
@@ -437,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EF3B47A140F5059002CE947 /* SharedRelease.xcconfig */;
 			buildSettings = {
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = ../../include;
 			};
 			name = Release;

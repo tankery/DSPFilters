@@ -671,12 +671,13 @@
 					"JUCE_UNIT_TESTS=1",
 					"$(inherited)",
 				);
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					../../../JuceAmalgam,
 					../../../DSPFilters/include,
 				);
 				PRODUCT_NAME = "DSP Filters";
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -694,12 +695,13 @@
 					"JUCE_ObjCExtraSuffix=",
 					"$(inherited)",
 				);
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					../../../JuceAmalgam,
 					../../../DSPFilters/include,
 				);
 				PRODUCT_NAME = "DSP Filters";
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
