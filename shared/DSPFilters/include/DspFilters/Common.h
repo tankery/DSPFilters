@@ -63,4 +63,14 @@ namespace tr1 = std;
 #endif
 
 
+#ifdef ST_NO_EXCEPTION_HANDLING
+    // Exceptions disabled. Throw asserts instead if enabled.
+    #define ST_THROW_RT_ERROR(x)    {assert((const char *)x);}
+#else
+    // use c++ standard exceptions
+    #include <stdexcept>
+    #define ST_THROW_RT_ERROR(x)    {throw std::logic_error(x);}
+#endif
+
+
 #endif

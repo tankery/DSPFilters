@@ -35,7 +35,6 @@ THE SOFTWARE.
 
 #include "DspFilters/Common.h"
 #include "DspFilters/RootFinder.h"
-#include <stdexcept>
 
 namespace Dsp {
 
@@ -160,7 +159,7 @@ void RootFinderBase::laguerre (int degree,
       x -= frac[iter / MT] * dx;
   }
 
-  throw std::logic_error ("laguerre failed");
+  ST_THROW_RT_ERROR ("laguerre failed");
 }
 
 //------------------------------------------------------------------------------

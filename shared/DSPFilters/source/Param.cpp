@@ -36,7 +36,6 @@ THE SOFTWARE.
 #include "DspFilters/Common.h"
 #include "DspFilters/Design.h"
 
-#include <stdexcept>
 #include <sstream>
 #include <iostream>
 #include <iomanip>
@@ -45,7 +44,7 @@ namespace Dsp {
 
 ParamInfo::ParamInfo ()
 {
-  throw std::logic_error ("invalid usage of ParamInfo");
+  ST_THROW_RT_ERROR ("invalid usage of ParamInfo");
 }
 
 double ParamInfo::clamp (double nativeValue) const
